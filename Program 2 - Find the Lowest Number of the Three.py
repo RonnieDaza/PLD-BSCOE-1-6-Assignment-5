@@ -19,3 +19,7 @@ else:
     # 5. Test if the second number is the lowest of all the three numbers.
     if secondNumber < firstNumber and secondNumber < thirdNumber:
         lowestOfall = secondNumber
+    else:
+        # 6. Test if the third number is the lowest of all the three numbers.
+        if thirdNumber < firstNumber and thirdNumber < secondNumber:
+            lowestOfall = thirdNumber
