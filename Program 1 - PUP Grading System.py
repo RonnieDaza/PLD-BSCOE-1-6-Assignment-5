@@ -57,3 +57,8 @@ else:
             elif roundoffGrade >=88 and roundoffGrade <=90:
                 print("Your Grade/Mark is: 1.75") # True Block
                 print("Your Description is: Very Good") # True Block
+            
+            # 11. Test if the grade percentage is 2.0 and good.
+            elif roundoffGrade >=85 and roundoffGrade <=87:
+                print("Your Grade/Mark is: 2.0") # True Block
+                print("Your Description is: Good") # True Block
