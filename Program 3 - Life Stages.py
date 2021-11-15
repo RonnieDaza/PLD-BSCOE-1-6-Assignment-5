@@ -17,3 +17,7 @@ else:
     # 3. Test if the user is a teenager.
     if age >=13 and age <=17:
         print("You're a teenager.") # True Block
+    else:
+        # 4. Test if the user is a debutante.
+        if age == 18:
+            print("You're a debutante.") # True Block
