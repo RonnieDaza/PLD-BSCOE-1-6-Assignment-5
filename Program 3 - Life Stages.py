@@ -24,3 +24,6 @@ else:
         else:
             #5. If nothing matches the age description, then the user is an adult.
             print("You're an adult.") # True Block
+
+# 6. Print the concluding message.
+print("The program is done.")
