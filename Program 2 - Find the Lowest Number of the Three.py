@@ -23,3 +23,6 @@ else:
         # 6. Test if the third number is the lowest of all the three numbers.
         if thirdNumber < firstNumber and thirdNumber < secondNumber:
             lowestOfall = thirdNumber
+
+# 7. Print the output.
+print(lowestOfall)
