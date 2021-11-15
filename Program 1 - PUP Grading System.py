@@ -42,3 +42,8 @@ else:
             if roundoffGrade >=97 and roundoffGrade <=100:
                 print("Your Grade/Mark is: 1.0") # True Block
                 print("Your Description is: Excellent") # True Block
+            
+            # 8. Test if the grade percentage is 1.25 and excellent.
+            elif roundoffGrade >=94 and roundoffGrade <=96:
+                print("Your Grade/Mark is: 1.25") # True Block
+                print("Your Description is: Excellent") # True Block
