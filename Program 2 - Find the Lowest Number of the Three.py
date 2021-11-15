@@ -15,3 +15,7 @@ thirdNumber = float(input("Enter the third number: "))
 # 4. Test if the first number is the lowest of all the three numbers.
 if firstNumber < secondNumber and firstNumber < thirdNumber:
     lowestOfall = firstNumber
+else:
+    # 5. Test if the second number is the lowest of all the three numbers.
+    if secondNumber < firstNumber and secondNumber < thirdNumber:
+        lowestOfall = secondNumber
