@@ -23,3 +23,7 @@ gradePercentage = input("Enter your grade percentage: ")
 # 2. Test if the user input is Incomplete.
 if gradePercentage == "Inc.":
     print("Your status is: Incomplete") # True Block
+else:
+    # 3. Test if the user input is Withdrawn.
+    if gradePercentage == "W":
+        print("Your status is: Withdrawn") # True Block
