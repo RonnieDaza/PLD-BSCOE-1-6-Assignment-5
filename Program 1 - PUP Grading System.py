@@ -31,3 +31,6 @@ else:
         # 4. Test if the user input is Dropped.
         if gradePercentage == "D":
             print("Your status is: Dropped") # True Block
+        else:
+            # 5. If the input didn't match the first 3 special conditions, then convert the grade percentage to float.
+            gradePercentage = float(gradePercentage)
