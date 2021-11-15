@@ -27,3 +27,7 @@ else:
     # 3. Test if the user input is Withdrawn.
     if gradePercentage == "W":
         print("Your status is: Withdrawn") # True Block
+    else:
+        # 4. Test if the user input is Dropped.
+        if gradePercentage == "D":
+            print("Your status is: Dropped") # True Block
