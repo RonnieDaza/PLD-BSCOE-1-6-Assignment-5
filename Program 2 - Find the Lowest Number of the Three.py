@@ -7,3 +7,5 @@
 # Steps
 # 1. Ask the user for the first number.
 firstNumber = float(input("Enter the first number: "))
+# 2. Ask the user for the second number.
+secondNumber = float(input("Enter the second number: "))
