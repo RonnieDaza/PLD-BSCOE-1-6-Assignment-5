@@ -9,3 +9,5 @@
 firstNumber = float(input("Enter the first number: "))
 # 2. Ask the user for the second number.
 secondNumber = float(input("Enter the second number: "))
+# 3. Ask the user for the third number.
+thirdNumber = float(input("Enter the third number: "))
