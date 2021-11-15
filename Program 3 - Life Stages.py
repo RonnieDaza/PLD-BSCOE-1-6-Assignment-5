@@ -10,3 +10,6 @@
 # Steps
 # 1. Ask for age, convert, and store.
 age = int(input("Enter your age: "))
+# 2. Test if the user is a kid.
+if age >-1 and age <=12:
+    print("You're a kid.") # True Block
