@@ -34,3 +34,6 @@ else:
         else:
             # 5. If the input didn't match the first 3 special conditions, then convert the grade percentage to float.
             gradePercentage = float(gradePercentage)
+
+            # 6. Round off the grade percentage.
+            roundoffGrade = round(gradePercentage)
