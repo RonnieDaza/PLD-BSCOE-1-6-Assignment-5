@@ -19,3 +19,7 @@
 # Steps
 # 1. Ask for the grade percentage of the user.
 gradePercentage = input("Enter your grade percentage: ")
+
+# 2. Test if the user input is Incomplete.
+if gradePercentage == "Inc.":
+    print("Your status is: Incomplete") # True Block
